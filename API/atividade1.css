@@ -1,0 +1,32 @@
+
+body{
+  background-color: rgb(114, 6, 255);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+}
+.quadro{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    align-items: center;
+    border: solid 1px rgb(255, 0, 0);
+}
+button{
+    width: 80px;
+    display: flex;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+button:hover{
+    width: 85px;
+    display: flex;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
