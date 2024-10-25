@@ -1,0 +1,47 @@
+body
+{
+    background-color: teal;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p{
+    font-family: verdana;
+    font-size: 150%;
+    color: #ffffff;
+    text-align: center;
+}
+.seila{
+    display: flex; 
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+    color: #ffffff;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:100% ;
+    height: 100%;
+}
+#nome{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
