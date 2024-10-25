@@ -1,0 +1,10 @@
+<input type="range" min="10" max="50"
+oninput="changeFontSize(this.value)">
+<p id="text">altere o tamanho da fonte deste texto.</p>
+
+<script>
+    function changeFontSize (size){
+        document.getElementById("text").style.fontSIze = size + "px";
+        
+    }
+</script>

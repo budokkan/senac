@@ -1,0 +1,15 @@
+<p id="greeting"></p>
+
+<script>
+    var now = new Date();
+    var hour = now.getHours();
+    var greeting;
+    if (hour <12 ) {
+        greeting = "bom dia";
+    }else if (hour <18){
+        greeting = "boa tarde";
+    }else{
+        greeting = "boa noite";
+    }
+    document.getElementById("greeting").textContent= greeting;
+</script>
