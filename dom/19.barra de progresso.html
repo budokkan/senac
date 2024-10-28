@@ -1,0 +1,20 @@
+<form onsubmit="return validatePassword()">
+    seha:<inputtype="password" id="password">
+    <input type="submit" value="Enviar"
+</form>
+
+<script>
+    function validatePassword(){
+        var passaword=document.getElementById("password").valeu;
+        if (passaword.length <6){
+            alert("a senha deve ter pelo menos 6 caracteres");
+            return false;
+        }
+            return true;
+    }
+</script>
+
+<!-- Explicação
+
+value: Valor atual da barra de progresso.
+max: Valor máximo da barra. -->

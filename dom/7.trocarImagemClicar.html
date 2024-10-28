@@ -1,0 +1,19 @@
+<img id="image" src="imgl.jpg" width="200">
+<button onclick="changgeImage()">trocar imagem</button>
+
+<script>
+    function changeImage(){
+        var img = document.getElementById("image");
+        if (img.src.endsWith("im1.jpg")){
+            img.src = "img2.jpg";
+        }else {
+            img.src = "img1.jpg";
+        }
+    }
+</script>
+
+<!-- Explicação
+
+src: Define o caminho da imagem a ser exibida.
+endsWith(): Verifica se o src termina com um valor
+específico. -->

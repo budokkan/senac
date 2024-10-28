@@ -1,0 +1,20 @@
+<p onmouseover="changeTextColor(this)"
+onmouseout="resetTextColor(this)">passe o meuse aqui</p>
+
+<script>
+    function changeTextColor(element){
+        element.style.color = "red";
+    }
+
+    function resetTextColor(element){
+        element.style.color = "black";
+    }
+</script>
+
+<!-- Explicação
+
+onmouseover: Evento disparado quando o mouse passa sobre o
+texto.
+onmouseout: Evento disparado quando o mouse sai do texto.
+this: Refere-se ao próprio elemento no qual o evento ocorre.
+style.color: Modifica a cor do texto. -->

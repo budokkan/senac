@@ -1,0 +1,21 @@
+<input type="text" id="item" placeholder="Adicionar item">
+<button onclick="addItem()">Adicionar</button>
+<ul id="list"></ul>
+
+<script>
+    function addItem(){
+        var item = document.getElementsById("Item").value;
+        if (item !== ""){
+            var li = document.createElement("li");
+            li.textContent = item;
+            document.getElementsById ("list").appendChild(li);
+            document.getElementById("Item").value = "";
+        }
+    }
+</script>
+
+<!-- Explicação
+
+createElement(): Cria um novo elemento <li>.
+appendChild(): Adiciona o item à lista.
+textContent: Define o conteúdo de texto do item. -->

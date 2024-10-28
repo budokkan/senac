@@ -1,0 +1,17 @@
+<img id="mainImage" src="img1.jpg" width="400">
+<br>
+<img src="im1.jpg" widht="100"
+onclick="changeMainImage('img1.jpg')">
+<img src="img2.jpg" width="100"
+onclick="changeMainImage('img2.jpg')">
+
+<script>
+    function changeMainImage (image){
+        document.getElementByid("mainImage").src = image;
+    }
+</script>
+
+<!-- Explicação
+
+changeMainImage(): Altera a imagem principal com base na
+miniatura clicada. -->

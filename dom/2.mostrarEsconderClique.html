@@ -1,0 +1,20 @@
+<button onclick="toggleText()">Mostrar/EsconderTexto</button>
+<p id="text" style="display: none">Este é um texto escondido</p>
+
+<script>
+    function toggleText(){
+        var text = document.getElementById("text");
+        if (text.style.display ==="none"){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+</script>
+
+<!-- Explicação
+
+getElementById(): Obtém o elemento pelo seu ID.
+style.display: Define se o texto deve ser exibido ou não.
+toggleText(): Alterna entre "block" (mostrar) e "none"
+(esconder). -->

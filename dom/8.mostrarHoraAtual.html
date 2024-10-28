@@ -1,0 +1,16 @@
+<button onclick="showTime()">Mostrar Hora</button>
+<P id= "time"></P>
+
+<script>
+    function showTime(){
+        var now = new Date ();
+        var time = now.getHours() + ":" + now.getMinutes() + ":" +
+        now.getSeconds();
+         }
+</script>
+
+<!-- Explicação
+
+new Date(): Cria um objeto de data atual.
+getHours(), getMinutes(), getSeconds(): Obtém as horas,
+minutos e segundos atuais. -->
