@@ -1,5 +1,7 @@
-fetch ('https://pokeapi.co/api/v2/pokemon/pikachu')
-     .then(reponse => Response.json())
-     .then(data => {
-         console.log('peso:', data.weight);
-     });
+document.getElementById('fetchDog').addEventListener('click', () => {
+    fetch('https://dog.ceo/api/breeds/image/random')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('dogImage').innerHTML = `<img src="${data.message}"  alt="Cachorro fofo" width="300">`;
+        });
+        });
